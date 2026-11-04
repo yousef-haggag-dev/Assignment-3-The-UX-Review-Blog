@@ -599,7 +599,6 @@ header {
     display: inline-block;
   }
 
-  /* 4. جعل كارت المقال مقسوم جزئين: الصورة شمال والنصوص يمين */
   .article-card {
     display: flex;
     gap: 1.5rem;
@@ -617,7 +616,6 @@ header {
     flex-grow: 1;
   }
 
-  /* 5. ضبط حجم وشكل الباراجراف والنصوص داخل الكارت */
   .article-card .content-card p {
     font-size: 0.95rem;
     line-height: 1.5;
@@ -837,7 +835,7 @@ p {
 
 .authors .authors-card .links img:hover {
   transform: translateY(-5px);
-  box-shadow: 0.25rem 0.25rem 0 #000; /* يمين + تحت */
+  box-shadow: 0.25rem 0.25rem 0 #000;
 }
 
 .authors .authors-card .links a:nth-child(1) img:hover {
